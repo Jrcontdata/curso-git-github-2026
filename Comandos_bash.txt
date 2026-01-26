@@ -4,3 +4,4 @@ pwd - mostra o diretorio de trabalho
 cd .. - volta para o diretorio anterior (pasta pai)
 cat -> Permite visualizar o que tem dentro do arquivo
 rm -> remove arquivo ou diretorio
+rm -rf -> remove de forma recursiva e forçada todos os diretórios
