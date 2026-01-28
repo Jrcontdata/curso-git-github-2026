@@ -5,3 +5,7 @@ Esse arquivo contem arquivos sencudanrios de git
 
 # Comandos genéricos
 - Comandos estranhos
+
+# mais comandos
+
+kddddkakdjajdad
