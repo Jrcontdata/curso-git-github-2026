@@ -1,0 +1,23 @@
+1- Abrir o Git Bash: inicie o terminal onde você executará os comandos (# Windows: abra o "Git Bash").
+2- Criar a pasta do projeto: crie o diretório onde ficará o repositório (mkdir meu-projeto).
+3- Entrar na pasta criada: acesse o diretório para trabalhar dentro dele (cd meu-projeto).
+4- Inicializar o repositório Git: comece o controle de versão local na pasta (git init).
+5- Criar o arquivo README.md: gere o arquivo de documentação do projeto (touch README.md).
+6- Editar o README.md (conteúdo inicial): abra e escreva o conteúdo inicial utilizando o editor no terminal (nano README.md).
+7- Verificar alterações realizadas: confira o que mudou no working directory e o que está pronto para staging (git status).
+8- Enviar alterações à área de staging: prepare os arquivos para o commit adicionando-os ao index (git add README.md ou, para adicionar tudo, git add .).
+9- Criar o commit inicial: registre um snapshot do conteúdo com uma mensagem clara (git commit -m "docs: cria README com descrição inicial").
+10- Conectar o repositório local ao GitHub: configure o repositório remoto onde o projeto será hospedado (git remote add origin https://github.com/usuario/repositorio.git).
+11- Enviar as alterações para a branch main: publique seu commit no GitHub e configure o tracking pela primeira vez (git push -u origin main).
+12- Criar uma nova branch para novas alterações (boa prática): crie uma branch separada para trabalhar sem alterar diretamente a main (git checkout -b descricao).
+13- Editar o README.md na branch descricao: faça a atualização desejada do conteúdo (nano README.md — salvar: Ctrl+O, Enter; sair: Ctrl+X).
+14- Verificar o que mudou: confirme os arquivos alterados e o estado do repositório (git status).
+15- Enviar alterações para a área de staging: selecione tudo que será incluído no próximo commit (git add .).
+16- Criar commit descritivo: registre as mudanças com uma mensagem objetiva e clara (git commit -m "docs: atualização da descrição no README").
+17- Enviar a branch descricao para o GitHub: publique sua branch de trabalho no repositório remoto (git push -u origin descricao).
+18- No GitHub, abrir a aba “<> Code”: acesse a página principal do seu repositório pela interface web.
+19- Clicar em “Compare & pull request”: inicie a criação do Pull Request para integrar a branch descricao na main.
+20- Clicar em “Create pull request”: revise título e descrição e confirme a abertura do PR.
+21- Fazer o merge: conclua a integração clicando em “Merge pull request” e confirme a operação.
+22- Voltar para a main e atualizar local após o merge: retorne para a branch principal local (git checkout main).
+23- Trazer as alterações do GitHub para o repositório local: atualize seu projeto com as mudanças mescladas no servidor (git pull).
